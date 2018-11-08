@@ -1,0 +1,23 @@
+address,lat,long,prod1,prod2,vehicle_capacity,vehicle_speed,round_trip_time_per_vehicle,vol_prod1,vol_prod2,service_time,start_timeslot,end_timeslot,city_width,city_height
+Warehouse,28.470502,77.044083,2,0,10,500,120,2,1.5,10,0,0,114,80
+1,28.4672361,77.0812383,1,10,10,500,120,2,1.5,10,15,18,114,80
+1,28.465045,77.100712,4,10,10,500,120,2,1.5,10,15,18,114,80
+1,28.5118779,77.0391796,0,12,10,500,120,2,1.5,10,15,18,114,80
+1,28.473987,77.011501,1,0,10,500,120,2,1.5,10,15,18,114,80
+1,28.494071,77.08855,1,0,10,500,120,2,1.5,10,15,18,114,80
+1,28.414465,77.069038,1,12,10,500,120,2,1.5,10,15,18,114,80
+1,28.409822,77.058949,1,20,10,500,120,2,1.5,10,15,18,114,80
+1,28.415153,77.04627,1,50,10,500,120,2,1.5,10,15,18,114,80
+1,28.465045,77.100712,2,20,10,500,120,2,1.5,10,15,18,114,80
+1,28.420002,77.048379,1,0,10,500,120,2,1.5,10,15,18,114,80
+1,28.41536,77.036525,1,0,10,500,120,2,1.5,10,15,18,114,80
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,vol_prod,vol of prod2 is normalized w.r.t vol_prod1,,,,,,,,,,,,
+,service_time,"its in minutes. Its assumed constant here, easily configurable in code",,,,,,,,,,,,
+,"start_timeslot
+end_timeslot",Time during which the product has to be delivered,,,,,,,,,,,,
+,vehicle_speed,"Its assumed to be constant here, roughly 30km/hr",,,,,,,,,,,,
+,round trip time per vehicle,its in minutes. Vehicle has to come back to warehouse within this time limit,,,,,,,,,,,,
